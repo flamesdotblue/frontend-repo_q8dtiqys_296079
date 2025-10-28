@@ -53,38 +53,38 @@ export default function AdminPanel() {
             title="Journey Nodes"
             description="Add or edit colleges, workshops, and achievements"
             icon={Calendar}
-            actions=[
+            actions={[
               { label: 'Add Node', icon: <Plus size={16} />, onClick: () => alert('Mock: Add Node') },
               { label: 'Edit Node', icon: <Edit3 size={16} />, onClick: () => alert('Mock: Edit Node') },
               { label: 'Upload Media', icon: <Image size={16} />, onClick: () => alert('Mock: Upload Media') },
-            ]
+            ]}
           />
           <AdminCard
             title="Awards & Recognition"
             description="Certificates, honors, and milestones"
             icon={Award}
-            actions=[
+            actions={[
               { label: 'Add Award', icon: <Plus size={16} />, onClick: () => alert('Mock: Add Award') },
               { label: 'Edit Award', icon: <Edit3 size={16} />, onClick: () => alert('Mock: Edit Award') },
-            ]
+            ]}
           />
           <AdminCard
             title="Blog / Insights"
             description="AI, Cybersecurity, Quantum Computing"
             icon={Newspaper}
-            actions=[
+            actions={[
               { label: 'New Post', icon: <Plus size={16} />, onClick: () => alert('Mock: New Post') },
               { label: 'Edit Posts', icon: <Edit3 size={16} />, onClick: () => alert('Mock: Edit Posts') },
-            ]
+            ]}
           />
           <AdminCard
             title="Events / Calendar"
             description="Schedule upcoming and past events"
             icon={Calendar}
-            actions=[
+            actions={[
               { label: 'Create Event', icon: <Plus size={16} />, onClick: () => alert('Mock: Create Event') },
               { label: 'Edit Event', icon: <Edit3 size={16} />, onClick: () => alert('Mock: Edit Event') },
-            ]
+            ]}
           />
         </div>
       </div>
